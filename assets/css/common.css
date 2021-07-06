@@ -1,0 +1,172 @@
+*{
+	font-family: 'Courgette','cursive';
+}
+html {
+	/* ルートのフォントサイズを10pxに設定しておく */
+font-size: 62.5%;
+}
+
+body{
+	background-color: #00afcc;
+	color: #fff;
+	max-width: 1152px;
+	margin: 0 auto;
+	font-size: 1.6em;
+}
+
+
+
+section{
+	padding: 15% 14% 0 14%;
+}
+
+section >h1{
+	text-align: center;
+	text-shadow:2px 2px 0px #333;
+}
+
+.title-size{
+	font-size:40px ;
+}
+p , span{
+  font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
+}
+.main-titel p{
+	font-family: 'Courgette','cursive';
+}
+/* header */
+.header-all{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 4%;
+}
+/* header-left */
+.header-left{
+	width: 18%;
+}
+.header-left >a>img{
+	width: 100%;
+}
+
+/*  header-center*/
+.main-nav  {
+	display: flex;
+	justify-content: center;
+}
+
+.main-nav > li {
+	padding-right:6%;
+	font-size: 20px;
+	font-family: 'Courgette', cursive;
+	text-align: center;
+}		
+
+
+.main-nav > li >a{
+	text-decoration: none;
+	color: #fff;
+}	
+.main-nav >li{
+	display: flex;
+	align-items: center;
+}
+.main-nav >li>img{
+	display: none;
+	height: 30px;
+} 
+.main-nav >li:hover>img{
+	display: block;
+	transition: .3s;
+}
+
+
+
+/* header-right */
+.contactform{
+	display: flex;
+}
+.contactform >li{
+	padding-left: 5px;
+}
+.fab{
+	color: #fff;
+	font-size: 130%;
+}
+/* ハンバーガー */
+
+
+/* price */
+.price-nav{
+	display: flex;
+	justify-content: space-around;
+	padding: 5% 2%;	
+}
+
+.price-content >a{
+	display: inline-block;
+  height: 80px;
+	width: 120px;
+  line-height: 80px;
+  text-align: center;
+  padding: 0 20px; 
+	background-color: #f2cf01;
+		border-radius: 10px;
+	text-decoration: none;
+	color: #000;
+ }
+ .price-content >a:hover{
+	color: #fff;
+	background-color:#000;
+}
+
+
+/* レスポンシブルデザイン */
+/* スマートフォン */
+
+@media screen and (max-width :767px){
+	html {
+		/* ルートのフォントサイズを10pxに設定しておく */
+	font-size: 40%;
+	}
+	.title-size {
+    font-size: 33px;
+}
+		/* header */
+	.top-menu{
+		display: none;
+	}
+	.header-right{
+		display: none;
+	}
+
+/* ハンバーガー */
+
+	.hamburger{
+		display: initial;
+	}
+	.hamburger__icon, .hamburger__icon:after, .hamburger__icon:before {
+		color: #fff;
+	}
+	/* price */
+	.price-nav{
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.price-content{
+		margin: 3%;
+	}
+	.price-content >a {
+		height: 94px;
+		width: 182px;
+		line-height: 94px;
+	}
+}
+@media screen and (max-width :284px){
+	.price-content >a {
+		height: 49px;
+		width: 70px;
+		line-height: 49px;
+	}
+}

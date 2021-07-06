@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> cocowave</title>
+
+	<!-- css　ファイル -->
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="./assets/css/drawer.css">
+	<link rel="stylesheet" href="./assets/css/common.css">
+	<link rel="stylesheet" href="./assets/css/price_around.css">
+
+	<!-- googleフォント -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&display=swap" rel="stylesheet">
+	
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+	
+<body>
+	<header class="drawer drawer--right">
+			<div class="header-all" id="top_back">
+				<div class="header-left">
+					<a href="./index.php#top_back">
+						<img src="./assets/img/IMG_3238.PNG" alt="">
+					</a>
+				</div>
+				<div class="top-menu">
+					<ul class="main-nav">
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#">Home</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#about">About</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#introduce-inside">Room</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#price">Price</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#access">Access</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./index.html#contact">Contact</a></li>
+						<li><img src="./assets/img/surf_3.png" alt=""><a href="./around.html">Around</a></li>
+					</ul>
+				</div>
+				<div class="header-right">
+					<ul class="contactform">
+						<li><a href="https://www.instagram.com/cocowave_okinawa/"><i class="fab fa-instagram iconsize"></i></a></li>
+					</ul>
+				</div>
+					<!-- ドロワー -->			
+					<button type="button" class="drawer-toggle drawer-hamburger">
+					<span class="sr-only">toggle navigation</span>
+					<span class="drawer-hamburger-icon"></span>
+				</button>
+				<!-- ハンバーガー -->
+				<nav class="drawer-nav">
+					<ul class="drawer-menu">
+					  <li><a href="./index.php#about">About</a></li>
+						<li><a href="./index.php#introduce-inside">Room</a></li>
+						<li><a href="./index.php#price">Price</a></li>
+						<li><a href="./index.php#access">Access</a></li>
+						<li><a href="./index.php#contact">Contact</a></li>
+						<li><a href="./around.php">Around</a></li>
+						<li><a href="https://www.instagram.com/cocowave_okinawa/"><i class="fab fa-instagram iconsize"></i></a></li>
+					</ul>
+				</nav>
+	</header>
+	<!-- header ここまで -->
+	<main>
+		<!-- week-->
+		<section>
+			<h1 class="title-size">Day</h1>
+				<div class="around-word"> 
+					<div class="around-detail">
+						<h1>Price</h1>
+						<p class="price-detail">¥25,000〜/1Day</p>
+						<p　class="calendar_detail">下記カレンダーに料金が記載されています</p>
+						<div class="calendar">
+							<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=Y19mbWg0dTRwZnA5YjVxczIwNWhmNmpxcHVha0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23E4C441&amp;showNav=1&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;showTitle=0" style="border-width:0"  frameborder="0" scrolling="no"></iframe>				
+						</div>
+						<p>※上記は4人までの清掃費込みの料金です。 <br>
+								5人以上は1人増えるごとに+¥2,500/泊です。
+						</p>
+						<a href="./index.html#contact" class="btn-flat-stripe">ご予約はこちら</a>
+					</div>
+				</div>		
+    </section>
+		<section id="price">
+			<ul class="price-nav"> 
+				<li class="price-content_2 btn-2"><a href="./week_price.html"> <i class="fas fa-arrow-left"></i>Weekly</a></li>
+				<li class="price-content_2 btn-3"><a href="./mounth.html">Monthly<i class="fas fa-arrow-right"></i></a></li>
+			</ul>
+	  </section>
+	</main>
+		<!-- footer -->
+		<footer>
+			<!-- コピーライト -->
+			<p class="copylight">
+				Copyright &copy; Cocowave.ALL RIGHTS RESERVED.
+			</p>
+		</footer>
+		<!-- footer ここまで -->	
+		<script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script defer src="./assets/js/drawer.js"></script>
+		<script defer src="./assets/js/iscroll.js"></script>
+		<script defer src="./assets/js/main.js"></script>
+</body>
+
+</html>
