@@ -27,6 +27,24 @@ section >h1{
 
 .title-size{
 	font-size:40px ;
+	margin-bottom: 2%;
+}
+.price_box{
+	background-color:#fff;
+	color: #000;
+	margin: auto;
+	padding: 3%;
+	width: 60%;
+	border: double ;
+}
+.title-size_2{
+	font-size:20px ;
+	/* font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif; */
+	text-align: center;
+}
+.price_contents{
+	text-align: center;
+	margin-top: 2%;
 }
 p , span{
   font-family: "游ゴシック体", YuGothic, "YuGothic M", sans-serif;
@@ -97,6 +115,13 @@ p , span{
 
 
 /* price */
+.price_btn{
+	display: flex;
+	justify-content: center;
+}
+.price_btn > img{
+	height: 40vh;
+}
 .price-nav{
 	display: flex;
 	justify-content: space-around;
@@ -119,7 +144,9 @@ p , span{
 	color: #fff;
 	background-color:#000;
 }
-
+/* .icon_1{
+	height: 80%;
+} */
 
 /* レスポンシブルデザイン */
 /* スマートフォン */

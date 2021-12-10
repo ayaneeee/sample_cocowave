@@ -14,12 +14,18 @@ $(function () {
 
   // main画面 スライダー
   $('.bgimg-slider').bgSwitcher({
-    images: ['./assets/img/beach.jpeg', './assets/img/livingroom2.jpeg', './assets/img/out.jpg'],
+    images: ['./assets/img/main1.JPG', './assets/img/main2.JPG', './assets/img/out.jpg'],
     effect: "fade",
     easing: "linear"
   });
-// slick
+  $('.bgimg-slider_2').bgSwitcher({
+    images: ['./assets/img/room01.JPG', './assets/img/room02.JPG', './assets/img/room03.JPG', './assets/img/room04.JPG', './assets/img/room05.JPG', './assets/img/room06.JPG'],
+    effect: "fade",
+    easing: "linear"
+  });
 
+
+// slick
   $(function () {
     $('.room_gallery').slick({
       autoplay: true,
@@ -56,7 +62,9 @@ $(function () {
       ]
     });
   });
-  const btn = document.getElementById('button');
+
+  // 問い合わせ
+const btn = document.getElementById('button');
 
 document.getElementById('form')
  .addEventListener('submit', function(event) {
@@ -65,17 +73,18 @@ document.getElementById('form')
    btn.value = 'Sending...';
 
    const serviceID = 'default_service';
-   const templateID = 'template_v7fj61j';
+   const templateID = 'template_fwjpzf9';
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
       btn.value = 'Send Email';
-      alert('Sent!');
+      alert('Sent!送信完了しました！');
     }, (err) => {
       btn.value = 'Send Email';
       alert(JSON.stringify(err));
     });
 });
 });
+
 
 

@@ -131,6 +131,12 @@
 	width: 100%;
 	margin-top: 20px;
 }
+.bgimg-slider_2 {
+  background-position: center center;
+  background-size: cover;
+	width: 100%;
+	height: 90vh;
+}
 
 .inside{
 	padding-right:5%;
@@ -142,8 +148,18 @@
 
 .inside-description{
 	padding: 30px;
+	text-align: center;
 }
-
+.inside-description_2{
+	margin: auto;
+	width: 70%;
+}
+.inside-description_2 td {
+	padding: 2% 4%;
+	}
+	.inside-description_2 th {
+		padding-top: 4%;
+		}
 .floor_plan {
 	display: block;
 	height: 400px;
@@ -292,6 +308,9 @@ color: #333333;
 .field input[name="message"]{
 	line-height: 16;
 }
+.contact_text{
+	text-align: center;
+}
 input[type="submit"] {
 	font-size: 2rem;
 	padding: 3.5% 1.5%;
@@ -390,3 +409,4 @@ display: none;
 }
 
 }
+
