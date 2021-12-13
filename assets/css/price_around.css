@@ -149,7 +149,9 @@ section {
 	font-size: 32.5%;
 	}
 	/* header */
-
+	section{
+		padding: 10% 5% 0 5%;
+	}
 .top-menu{
 	display: none;
 }
@@ -178,6 +180,9 @@ section {
 }
 .calendar > iframe{
 	height: 50vh;
+}
+.around-detail p{
+	padding:5%;
 }
 .around-detail h1 {
 	font-size: 4.9rem;
