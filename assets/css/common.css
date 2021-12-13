@@ -118,14 +118,20 @@ p , span{
 .price_btn{
 	display: flex;
 	justify-content: center;
+
 }
-.price_btn > img{
-	height: 40vh;
-}
+
 .price-nav{
 	display: flex;
 	justify-content: space-around;
 	padding: 5% 2%;	
+	position: relative;
+}
+.price-nav>li> img{
+	height: 50%;
+	position: absolute;
+	top: -5%;
+	left: 1%;
 }
 
 .price-content >a{
