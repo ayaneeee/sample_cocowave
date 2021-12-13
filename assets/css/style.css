@@ -358,6 +358,11 @@ input[type="submit"]:hover {
 	#splash_logo img {
 		width: 65%;
 	}
+	/* topへ戻る */
+	#page_top {
+		width: 30vw;
+	}
+
 /* main画面*/
 .main-view{
 	padding: 1% 0;
