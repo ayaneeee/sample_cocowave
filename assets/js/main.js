@@ -5,6 +5,27 @@ $(function () {
     $("#splash").delay(1500).fadeOut('slow');//ローディング画面を1.5秒（1500ms）待機してからフェードアウト
     $("#splash_logo").delay(1200).fadeOut('slow');//ロゴを1.2秒（1200ms）待機してからフェードアウト
   });
+  // topへ戻る
+$(function(){
+  var pagetop = $('#page_top');
+  // ボタン非表示
+  pagetop.hide();
+
+  // 100px スクロールしたらボタン表示
+  $(window).scroll(function () {
+     if ($(this).scrollTop() > 100) {
+          pagetop.fadeIn();
+     } else {
+          pagetop.fadeOut();
+     }
+  });
+  pagetop.click(function () {
+    console.log("test");
+    console.log($(window).scrollTop());
+     $('body, html').animate({ scrollTop: 0 }, 500);
+    //  return false;
+  });
+});
   // ハンバーガー
 
     $(function() {
