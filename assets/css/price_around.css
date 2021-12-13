@@ -181,6 +181,9 @@ section {
 .calendar > iframe{
 	height: 50vh;
 }
+/* #calendarTitle{
+	display: none;
+} */
 .around-detail p{
 	padding:5%;
 }
