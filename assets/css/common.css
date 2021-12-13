@@ -162,8 +162,15 @@ p , span{
 		/* ルートのフォントサイズを10pxに設定しておく */
 	font-size: 40%;
 	}
+	section{
+		padding: 10% 9% 0 9%;
+	}
+
+	p{
+		font-size: 14px;
+	}
 	.title-size {
-    font-size: 33px;
+    font-size: 45px;
 }
 		/* header */
 	.top-menu{
@@ -181,7 +188,18 @@ p , span{
 	.hamburger__icon, .hamburger__icon:after, .hamburger__icon:before {
 		color: #fff;
 	}
+	.drawer-menu{
+		font-size: 18px;
+		padding: 6%;
+	}
+
+.drawer-menu > li {
+    padding: 20%;
+}
 	/* price */
+	.price_box {
+		padding: 9%;
+	}
 	.price-nav{
 		flex-direction: column;
 		align-items: center;
@@ -194,7 +212,7 @@ p , span{
     height: 50px;
     width: 140px;
     line-height: 50px;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 }
 @media screen and (max-width :284px){

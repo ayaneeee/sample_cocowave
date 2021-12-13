@@ -170,6 +170,8 @@ section {
 .detail > p {
 	padding: 3% 0;
 }
+
+
 /* Price */
 .calendar {
 	width: 100%;
@@ -177,7 +179,13 @@ section {
 .calendar > iframe{
 	height: 50vh;
 }
-
+.around-detail h1 {
+	font-size: 4.9rem;
+}
+.btn-flat-stripe {
+	padding: 1.5em 2.7em;
+	font-size: 14px;
+}
 /* price nav  */
 .price-content_2 > a{
 	height: 17px;
